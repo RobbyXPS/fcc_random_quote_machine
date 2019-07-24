@@ -1,0 +1,61 @@
+@import 'https://fonts.googleapis.com/css?family=Indie+Flower';
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #CDD3D5
+}
+
+#quote-box {
+  background-color: #75B8C8;
+  border-radius: 15px;
+  margin: 20px;
+  padding: 20px;
+  font-family: 'Indie Flower', cursive
+}
+
+#button-box {
+  display: flex;
+  align-items: center;
+  margin-top: 30px
+}
+
+#author, #text, #new-quote { color: #220C10 }
+
+#text {
+    font-size: 30px;
+    font-weight: bold
+}
+
+#author {
+  text-align: right;
+  font-size: 20px;
+  margin-top: 15px
+}
+
+#tweet-quote {
+  color: #506C64;
+  font-size: 60px;
+  margin-right: 20px
+}
+
+#new-quote {  
+  font-size: 20px;
+  background-color: #506C64;
+  border: none;
+  border-radius: 10px;
+  color: #75B8C8;
+  padding: 10px 16px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  cursor: pointer
+}
+
+#new-quote:hover { background-color: #364944 }
+
+#tweet-quote:hover { color: #364944 }
+
+/*this is just an empty element to seperate the bottom buttons*/
+#spacer { flex-grow: 1 }
